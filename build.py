@@ -3,8 +3,8 @@
 from datetime import datetime
 from pathlib import Path
 
-ROOT_URL = "https://notes.do1g.com"
-SITE_NAME = "pupdates"
+ROOT_URL = "https://garud-mb.netlify.app/"
+SITE_NAME = "CelestialEntity's MicroBlog"
 
 HTML = Path("templates/main.html").read_text()
 POST = Path("templates/post.html").read_text()

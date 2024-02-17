@@ -2,18 +2,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ site_name }}</title>
-<link rel="alternate" type="application/atom+xml" title="notes.do1g.com - pupdates - atom feed" href="https://notes.do1g.com/atom.xml"/>
+<link rel="alternate" type="application/atom+xml" title="garub-mb.netlify.app - CelestialEntity - atom feed" href="https://garud-mb.netlify.app/atom.xml"/>
 <style>
-* { background: #fafaff; }
+* { background: #080c0c; }
 main {
     font-family: helvetica, sans-serif;
     font-size: 1.3rem;
     max-width: 70ch;
     margin: 0 auto;
     line-height: 1.25;
+    color: #d9ffdb;
 }
 section {
-    border: 1px solid #000;
+    border: 1px solid #357670;
     border-radius: 0.25em;
 }
 h1 {
@@ -44,11 +45,10 @@ code.block {
 </style>
 <main>
 <h1>{{ site_name }}</h1>
-<p><a href="https://notes.do1g.com/">Home</a> &middot; <a href="https://weirder.earth/@puppy">Mastodon</a> &middot; <a href="/atom.xml">Atom Feed</a></p>
+<p><a href="https://garud.netlify.app">Home</a> &middot; <a href="/atom.xml">Atom Feed</a></p>
 
 <div class="intro">
-<p>I'm <a href="https://smallest.dog">Ellen Dash</a>, but you can call me <em>puppy</em>.</p>
-<p>This is my attempt at <a href="https://notes.andymatuschak.org/About_these_notes?stackedNotes=zCMhncA1iSE74MKKYQS5PBZ">working with the garage door up</a>.</p>
+<p>I'm <a href="https://garud.netlify.app">CelestialEntity</a>, and this my Microblog.</p>
 </div>
 
 {{ posts | postify-each | join-lines }}
