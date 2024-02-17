@@ -4,9 +4,9 @@
   <link href="{{ root_url }}/"/>
   <updated>{{ posts | first | dict-get-dt | atom-datetime }}</updated>
   <author>
-    <name>Ellen Marie Dash</name>
+    <name>CelestialEntity</name>
   </author>
-  <id>https://news.do1g.com/</id>
+  <id>https://garud.netlify.app/</id>
 
   {{ posts | atomize-each | join-lines }}
 </feed>
