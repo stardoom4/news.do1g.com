@@ -7,18 +7,23 @@
 * { background: #080c0c; }
 main {
     font-family: serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     max-width: 70ch;
     margin: 0 auto;
     line-height: 1.25;
     color: #d9ffdb;
+    line-height: 2rem;
 }
 section {
     border: 1px solid #357670;
     border-radius: 0.25em;
 }
 h1 {
-    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    line-height: 1;
 }
 h1, h2, h3, h4 {
     margin: 1rem;
@@ -42,6 +47,14 @@ code.block {
     display: block;
     overflow: auto;
 }
+h2 {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 2.1rem;
+    margin-bottom: 1.4rem;
+    font-size: 2.2rem;
+    line-height: 1;
+}
 </style>
 <main>
 <h1>{{ site_name }}</h1>
@@ -49,7 +62,7 @@ code.block {
 
 <div class="intro">
 <p>I'm <a href="https://garud.netlify.app">CelestialEntity</a>, and this my Microblog.</p>
+<p>Contains NSFW things and words.</p>
 </div>
-
 {{ posts | postify-each | join-lines }}
 </main>
